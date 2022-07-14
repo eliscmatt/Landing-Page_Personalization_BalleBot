@@ -21,12 +21,12 @@ body {
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
-    padding: 24px;
+    padding: 20px;
 }
 
 .cabecalho-imagem {
-    height: 150px;
-    margin-right: 20px;
+    max-height: 120px;
+    margin-right: 10px;
 }
 
 .cabecalho-menu {
@@ -41,9 +41,8 @@ body {
     border-radius: 20px;
     box-shadow: 4px 5px 4px #033f63;
     font-family: 'Sarala', sans-serif;
-    font-size: 18px;
-    color: #3d0c11;
-    
+    font-size: 16px;
+    color: #3d0c11;    
 }
 
 .conteudo {
@@ -61,7 +60,7 @@ body {
 .conteudo-principal-escrito {
     display: flex;
     flex-direction: column;
-    gap: 32px;
+    gap: 20px;
 }
 
 .conteudo-principal-titulo {
@@ -97,7 +96,7 @@ body {
 }
 
 .conteudo-principal-imagem {
-    height: 430px;
+    max-height: 430px;
 }
 
 .conteudo-secundario {
@@ -166,7 +165,10 @@ div h3, li, p, img {
 }
 
 #rodape .div-rodape p, h3, ul {
-    width: 200px;
     text-align: center;
+}
+
+#rodape .div-rodape p {
+    width: 200px;
 }
 
